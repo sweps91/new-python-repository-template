@@ -1,0 +1,43 @@
+[tool.ruff]
+line-length = 150
+
+# Allowed errors that Ruff will report
+lint.select = [
+    "E",    # Flake8 errors (e.g., incorrect syntax)
+    "F",    # Undeclared variables
+    "W",    # Flake8 warnings
+    "I",    # Automatic import sorting
+    "N",    # Variable naming conventions
+    "D",    # Docstrings (PEP257, Google/Numpy style)
+    "UP",   # Upgrade to newer Python syntax
+    "B",    # Flake8-Bugbear (better security)
+    "SIM",  # Simplified code
+    "RUF",  # Ruff-specific rules
+    "ANN",  # Type annotations enforcement
+    "ARG",  # Unused or misused arguments
+    
+    # currently muted lint scopes
+    # "C90",  # Cyclic imports
+    # "PL",   # Pylint rules
+    # "PERF", # Performance optimizations
+    # "RET",  # Proper return statements and values
+    # "C4",   # Code complexity
+    # "S",    # Security issues (e.g., use of `eval`, hardcoded passwords)
+    # "Q",    # Prohibit `exec()` and `eval()`
+]
+
+lint.ignore = [
+    "E501",   # Ignore long lines
+    "D415",   # Docstrings first line should end with a period, question mark, or exclamation point
+    "ANN401", # Dynamically typed expressions (typing.Any) are disallowed
+    "B006",   # Do not use mutable data structures for argument defaults
+]
+
+lint.fixable = ["ALL"]
+lint.unfixable = []
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["D", "S101"]
