@@ -6,6 +6,10 @@
     "ruff.lint.preview": false,
     "ruff.format.preview": false,
     "editor.formatOnSave": true,
+    "python.analysis.autoImportCompletions": true,
+    // "editor.inlineSuggest.enabled": true,
+    // "workbench.editor.limit.enabled": true,
+    // "workbench.editor.limit.value": 10,
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.codeActionsOnSave": {
