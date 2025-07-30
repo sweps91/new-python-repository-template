@@ -1,8 +1,8 @@
-[tool.ruff]
+[tool.ruff]                                         # ruff doc: https://docs.astral.sh/ruff/configuration/
 line-length = 150
 
-# Allowed errors that Ruff will report
-lint.select = [
+[tool.ruff.lint]
+select = [
     "ANN",      # Type annotations enforcement
     "ARG",      # Unused or misused arguments
     "B",        # Flake8-Bugbear (better security)
@@ -12,6 +12,7 @@ lint.select = [
     "DOC",      # Pydoclint
     "E",        # Flake8 errors (e.g., incorrect syntax)
     "F",        # Undeclared variables
+    "FBT",      # Flake8 boolean trap 
     "FIX001",   # FIXME in the code
     "FURB",     # Clean up and optimize code
     "I",        # Automatic import sorting
@@ -27,18 +28,19 @@ lint.select = [
     "W",        # Flake8 warnings
 ]
 
-lint.ignore = [
+ignore = [
     "ANN401",   # Dynamically typed expressions (typing.Any) are disallowed
     "E501",     # Ignore long lines
     "PLR0913",  # Too many arguments in function definition
-    "PLW0603",  # Using the global statement
+    "PLW0603",  # Update the global statement from function
 ]
 
-lint.fixable = ["ALL"]
-lint.unfixable = []
+fixable = ["ALL"]
+unfixable = []
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"
 
 [tool.ruff.lint.per-file-ignores]
 "tests/*" = ["D", "S101"]
+"__init__.py" = ["F"]
