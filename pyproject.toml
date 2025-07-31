@@ -1,5 +1,6 @@
 [tool.ruff]                                         # ruff doc: https://docs.astral.sh/ruff/configuration/
 line-length = 150
+indent-width = 4
 
 [tool.ruff.lint]
 select = [
