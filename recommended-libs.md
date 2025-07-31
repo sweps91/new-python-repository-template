@@ -1,0 +1,30 @@
+# Recommended Python Third-Party Libraries
+
+- [beartype](https://github.com/beartype/beartype): TYPE CHECKING | Runtime type checker for Python, with fast and precise type validation
+- [cattrs](https://github.com/python-attrs/cattrs): SERIALIZATION | Complex custom class structure converter for `attrs` and `dataclasses`
+- [cognee](https://github.com/topoteretes/cognee): AI MEMORY | Embeddable, queryable, vector-based memory for language models
+- [Daft](https://github.com/Eventual-Inc/Daft): DATA ANALYSIS | Distributed Python dataframe library for big data workloads
+- [DeepDiff](https://github.com/seperman/deepdiff): DATA COMPARISON | Deep difference and search of any Python object/data structure, including nested ones
+- [httpx](https://github.com/encode/httpx): HTTP CLIENT | Fully featured HTTP client for Python with async support
+- [hypothesis](https://github.com/HypothesisWorks/hypothesis): TESTING | Property-based testing library for Python
+- [loguru](https://github.com/Delgan/loguru): LOGGING | Simplified logging in Python, with powerful formatting and sink features
+- [marimo](https://github.com/marimo-team/marimo): NOTEBOOKS | Reactive Python notebooks for building interactive reports and apps
+- [narwhals](https://github.com/narwhals-dev/narwhals): DATA ABSTRACTION | Unified dataframe API over Polars, pandas, and more
+- [orjson](https://github.com/ijl/orjson): SERIALIZATION | Ultra-fast JSON library for Python, written in Rust
+- [pendulum](https://github.com/python-pendulum/pendulum): DATE & TIME | Precise and intuitive datetime library for Python
+- [Polars](https://github.com/pola-rs/polars): DATA ANALYSIS | Dataframes powered by a multithreaded, vectorized query engine, written in Rust
+- [pyinstrument](https://github.com/joerick/pyinstrument): PROFILING | Call graph profiler for Python that shows you where your app spends time
+- [pyinstaller](https://github.com/pyinstaller/pyinstaller): PACKAGING | Bundle Python applications into stand-alone executables
+- [pydantic](https://github.com/pydantic/pydantic): DATA VALIDATION | Data validation and settings management using Python type hints
+- [pytest](https://github.com/pytest-dev/pytest): TESTING | Framework that makes building simple and scalable tests easy
+- [pytest-cov](https://github.com/pytest-dev/pytest-cov): TESTING | Pytest plugin for measuring code coverage
+- [requests](https://github.com/psf/requests): HTTP CLIENT | Simple and elegant HTTP library for Python
+- [rich](https://github.com/Textualize/rich): FORMATTING | Rich text and beautiful formatting in the terminal
+- [ruff](https://github.com/astral-sh/ruff): LINTING | Extremely fast Python linter, written in Rust
+- [streamlit](https://github.com/streamlit/streamlit): APP FRAMEWORK | Effortlessly create data apps with pure Python
+- [taipy](https://github.com/Avaiga/taipy): APP FRAMEWORK | Build production-grade data apps with great UX
+- [tenacity](https://github.com/jd/tenacity): RETRY LOGIC | Retry code execution with configurable backoff strategies
+- [textual](https://github.com/Textualize/textual): TUI FRAMEWORK | Build modern TUI (text-based UI) applications with Python
+- [toml](https://github.com/toml-lang/toml): CONFIG FORMAT | Tom's Obvious, Minimal Language — configuration file format
+- [ty](https://github.com/astral-sh/ty): CLIs | Generate rich CLIs from Python functions with zero boilerplate
+- [uv](https://github.com/astral-sh/uv): PACKAGE MANAGER | Ultra-fast Python package manager and environment manager
