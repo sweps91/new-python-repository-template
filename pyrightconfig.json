@@ -1,0 +1,13 @@
+{
+    "include": [
+        "src",
+        "tests"
+    ],
+    "exclude": [
+        "build",
+        "venv"
+    ],
+    "typeCheckingMode": "strict",
+    "reportMissingTypeStubs": true,
+    "reportGeneralTypeIssues": true
+}
