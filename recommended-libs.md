@@ -16,6 +16,7 @@
 - [pyinstrument](https://github.com/joerick/pyinstrument): PROFILING | Call graph profiler for Python that shows you where your app spends time
 - [pyinstaller](https://github.com/pyinstaller/pyinstaller): PACKAGING | Bundle Python applications into stand-alone executables
 - [pydantic](https://github.com/pydantic/pydantic): DATA VALIDATION | Data validation and settings management using Python type hints
+- [pyright](https://github.com/microsoft/pyright): STATIC ANALYSIS | Fast, strict, and scalable static type checker for Python, with advanced type inference and VS Code integration
 - [pytest](https://github.com/pytest-dev/pytest): TESTING | Framework that makes building simple and scalable tests easy
 - [pytest-cov](https://github.com/pytest-dev/pytest-cov): TESTING | Pytest plugin for measuring code coverage
 - [requests](https://github.com/psf/requests): HTTP CLIENT | Simple and elegant HTTP library for Python
