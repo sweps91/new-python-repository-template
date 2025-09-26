@@ -1,14 +1,22 @@
-[tool.ruff]                                         # ruff doc: https://docs.astral.sh/ruff/configuration/
+# RUFF LINTER SETTINGS                                      # config: https://docs.astral.sh/ruff/configuration/
+
 line-length = 150
 indent-width = 4
+# src = ["core", "functions"]                                 # where is applied ruff linting rules; default: [".", "src"]
 
-[tool.ruff.lint]
-select = [
+[lint.isort]
+# known-local-folder = ["core"]                               # internal recognition for import sorting rules; default: []
+
+[lint]
+select = [                                                  # rules: https://docs.astral.sh/ruff/rules/
+    "A",        # Shadowing
     "ANN",      # Type annotations enforcement
     "ARG",      # Unused or misused arguments
+    "ASYNC",    # Async process rules
     "B",        # Flake8-Bugbear (better security)
     "C4",       # Code complexity
     "C90",      # Cyclic imports
+    "COM",      # Comma checker
     "D",        # Docstrings (PEP257, Google/Numpy style)
     "DOC",      # Pydoclint
     "E",        # Flake8 errors (e.g., incorrect syntax)
@@ -17,6 +25,7 @@ select = [
     "FIX001",   # FIXME in the code
     "FURB",     # Clean up and optimize code
     "I",        # Automatic import sorting
+    "ISC",      # Implicit string contacts
     "N",        # Variable naming conventions
     "PERF",     # Performance optimizations
     "PL",       # Pylint rules
@@ -39,9 +48,9 @@ ignore = [
 fixable = ["ALL"]
 unfixable = []
 
-[tool.ruff.lint.pydocstyle]
+[lint.pydocstyle]
 convention = "google"
 
-[tool.ruff.lint.per-file-ignores]
+[lint.per-file-ignores]
 "tests/*" = ["D", "S101", "PLC0415", "ANN201"]
 "__init__.py" = ["F", "E402"]
