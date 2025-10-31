@@ -1,0 +1,18 @@
+[project]
+name = "repository name"
+version = "0.1.0"
+description = "description"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.2",
+    "pytest-cov>=7.0.0",
+    "ruff>=0.14.0",
+]
+
+# create requirements.txt
+# uv pip compile pyproject.toml --output-file requirements.txt
