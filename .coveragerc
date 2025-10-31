@@ -1,2 +1,6 @@
 [run]
-omit = */test_*
+omit = 
+    **/tests/**
+    **/profiling/**
+    **/print/**
+    **/archive/**
