@@ -1,4 +1,5 @@
 {
+    // user settings: ctrl + shift + p --> Preferences: Open User Settings (JSON)
     "telemetry.telemetryLevel": "off",
     "python.analysis.autoFormatStrings": true,
     "python.analysis.inlayHints.variableTypes": true,
@@ -16,4 +17,8 @@
             "source.organizeImports.ruff": "explicit"
         }
     },
+    // workspace settings: folder root --> .vscode/settings.json
+    "python.analysis.extraPaths": [
+        "./src"
+    ]
 }
