@@ -4,3 +4,12 @@ omit =
     **/profiling/**
     **/print/**
     **/archive/**
+
+[report]
+precision = 1
+
+# command: terminal coverage interface
+# uv run pytest --cov
+
+# command: html coverage interface
+# uv run pytest --cov --cov-report=html
