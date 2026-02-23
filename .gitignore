@@ -1,6 +1,7 @@
 # ignore python cache and compiled files
 __pycache__/
 .pytest_cache
+.ruff_cache
 .mypy_cache
 *.py[cod]
 *.pyo
@@ -10,7 +11,11 @@ __pycache__/
 # ignore venv
 .venv
 
-# ignore other
-.idea
+# ignore coverage
 .coverage
 coverage.xml
+htmlcov
+
+# ignore other
+.idea
+
