@@ -9,11 +9,13 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "pip-audit==2.10.0",
     "pytest==9.0.2",
     "pytest-cov==7.0.0",
     "ruff==0.14.10",
     "ty>=0.0.9",
 ]
 
-# create requirements.txt
-# uv pip compile pyproject.toml --output-file requirements.txt
+# create/update requirements.txt
+# uv sync
+# uv export --format requirements-txt --no-dev --output-file requirements.txt
