@@ -1,7 +1,0 @@
-- autoDocstring (Nils Werner)
-- Code Spell Checker (Street Side Software)
-- Pylance (Microsoft)
-- Python (Microsoft)
-- Python Debugger (Microsoft)
-- Ruff (Astral Software)
-- ty (Astral Software)
