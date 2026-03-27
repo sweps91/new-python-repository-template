@@ -6,6 +6,7 @@
         "ms-python.python",
         "ms-python.debugpy",
         "charliermarsh.ruff",
-        "astral-sh.ty"
+        "astral-sh.ty",
+        "tamasfe.even-better-toml"
     ]
 }
