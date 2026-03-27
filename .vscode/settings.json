@@ -17,7 +17,7 @@
             "source.organizeImports.ruff": "explicit"
         }
     },
-    // workspace settings: folder root --> .vscode/settings.json
+    // workspace paths
     "python.analysis.extraPaths": [
         "./src"
     ]
