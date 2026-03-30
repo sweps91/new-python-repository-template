@@ -1,0 +1,9 @@
+# UV PACKAGE MANAGER SETTINGS                                   # config: https://docs.astral.sh/uv/
+
+# disallow newer packages than:
+exclude-newer = "14 days"                                       # https://docs.astral.sh/uv/concepts/resolution/#dependency-cooldowns
+
+# other options:                                                # https://docs.astral.sh/uv/reference/settings/
+# prerelease = "disallow"
+# compile-bytecode = true
+
