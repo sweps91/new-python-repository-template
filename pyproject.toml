@@ -1,11 +1,10 @@
 [project]
-name = "repository name"
+name = "repository-name"
 version = "0.1.0"
 description = "description"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = [
-]
+dependencies = []
 
 [dependency-groups]
 dev = [
@@ -13,9 +12,10 @@ dev = [
     "pytest==9.0.2",
     "pytest-cov==7.0.0",
     "ruff==0.14.10",
-    "ty>=0.0.9",
+    "ty==0.0.20",
 ]
+
 
 # create/update requirements.txt
 # uv sync
-# uv export --format requirements-txt --no-dev --output-file requirements.txt
+# uv export --locked --format requirements-txt --no-dev --output-file requirements.txt
