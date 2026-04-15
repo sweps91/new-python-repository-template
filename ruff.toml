@@ -39,10 +39,9 @@ select = [ # rules: https://docs.astral.sh/ruff/rules/
 ]
 
 ignore = [
-    "ANN401",  # Dynamically typed expressions (typing.Any) are disallowed
+    "ANN401",  # Ignore usage of typing.Any
     "E501",    # Ignore long lines
-    "PLR0913", # Too many arguments in function definition
-    "PLW0603", # Update the global statement from function
+    "PLR0913", # Ignore too many arguments in function definition
 ]
 
 fixable = ["ALL"]

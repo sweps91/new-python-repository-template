@@ -19,6 +19,7 @@
     - __(3)DEPLOYMENT__: For successful deploy is required following:
         - Package security audit by pip-audit must pass (run check: uv run pip-audit)
         - Ruff linter must not detect any warning (run check: uv run ruff check . )
+        - ty type checker must pass (run check: uv run ty check .)
         - Pytest must successfully pass (run check: uv run pytest)
         - General deployment validation must pass
 
