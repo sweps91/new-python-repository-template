@@ -1,8 +1,12 @@
 # TY TYPE CHECKER SETTINGS                                      # config: https://docs.astral.sh/ty/
 
-[rules]
-unresolved-import = "ignore"
-#unused-type-ignore-comment = "ignore"
+# [environment]
+# root = ["core", "functions"]
 
 [src]
 exclude = ["**/archive/**"]
+
+# [rules]
+
+# ty checker may consider pylance "type: ignore" as unused
+# unused-type-ignore-comment = "ignore"
