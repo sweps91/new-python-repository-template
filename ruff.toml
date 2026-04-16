@@ -4,6 +4,8 @@ line-length = 150
 indent-width = 4
 # src = ["core", "functions"]                                 # where is applied ruff linting rules; default: [".", "src"]
 
+extend-exclude = ["*.md"]
+
 [lint.isort]
 # known-local-folder = ["core"]                               # internal recognition for import sorting rules; default: []
 
