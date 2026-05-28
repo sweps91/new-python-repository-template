@@ -42,7 +42,6 @@ select = [ # rules: https://docs.astral.sh/ruff/rules/
 
 ignore = [
     "ANN401",  # Ignore usage of typing.Any
-    "E501",    # Ignore long lines
     "PLR0913", # Ignore too many arguments in function definition
 ]
 
