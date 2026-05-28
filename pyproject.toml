@@ -7,7 +7,13 @@ requires-python = ">=3.14"
 dependencies = []
 
 [dependency-groups]
-dev = ["pip-audit", "pytest", "pytest-cov", "ruff", "ty"]
+dev = [
+    # "pip-audit",  # use instead "uv audit" command
+    "pytest",
+    "pytest-cov",
+    "ruff",
+    "ty",
+]
 
 
 # create/update requirements.txt
