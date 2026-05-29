@@ -44,16 +44,16 @@ broken packages.
 exclude-newer = "14 days"
 ```
 
-### 4. Dependency Auditing — `pip-audit`
+### 4. Dependency Auditing — `uv audit`
 
 Dependencies should be regularly audited for known CVEs using
-[`pip-audit`](https://github.com/pypa/pip-audit):
+[`uv audit`](https://docs.astral.sh/uv/reference/cli/#uv-audit):
 
 ```sh
-uv run pip-audit
+uv audit
 ```
 
-It is recommended to run `pip-audit` as part of CI on every pull request.
+It is recommended to run `uv audit` as part of CI on every pull request.
 
 ### 5. Static Code Analysis — Ruff (Security Rules)
 
