@@ -1,5 +1,9 @@
 ## CONTRIBUTING:
-- This repository is integrated with uv package manager, ruff linter & ty type checker.
+- This repository is integrated with these developer dependencies:
+    - `pytest` testing library with code coverage extension
+    - `uv` package manager
+    - `ruff` linter
+    - `ty` type checker
 
 - Follow next steps for comfortable contributing/development. Also note, that recommended IDE is Visual Studio Code (VSC), so the following steps assume you are using this IDE.
 
