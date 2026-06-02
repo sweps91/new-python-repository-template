@@ -22,3 +22,8 @@ project usage
 
 ### Requirements
 project requirements
+
+---
+
+#### Repository template source
+- [https://github.com/sweps91/new-python-repository-template](https://github.com/sweps91/new-python-repository-template)
