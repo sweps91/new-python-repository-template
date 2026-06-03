@@ -32,3 +32,6 @@
         - Additional deployment validation must pass if added
 
         - if requirements.txt file is needed, follow `SECURITY.md`
+
+## DOCUMENTATION:
+- keep clean and properly documented code
