@@ -3,6 +3,9 @@
 # disallow newer packages than:
 exclude-newer = "14 days"                                       # https://docs.astral.sh/uv/concepts/resolution/#dependency-cooldowns
 
+[audit]
+malware-check = true
+
 # other options:                                                # https://docs.astral.sh/uv/reference/settings/
 # prerelease = "disallow"
 # compile-bytecode = true
