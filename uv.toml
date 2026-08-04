@@ -6,6 +6,9 @@ exclude-newer = "14 days"                                       # https://docs.a
 [audit]
 malware-check = true
 
+ignore-until-fixed = []
+ignore = []
+
 # other options:                                                # https://docs.astral.sh/uv/reference/settings/
 # prerelease = "disallow"
 # compile-bytecode = true
